@@ -13,6 +13,7 @@
 		3A60D0DD251C046A00C40CEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A60D0DB251C046A00C40CEC /* Main.storyboard */; };
 		3A60D0DF251C046F00C40CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A60D0DE251C046F00C40CEC /* Assets.xcassets */; };
 		3A60D0E2251C046F00C40CEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A60D0E0251C046F00C40CEC /* LaunchScreen.storyboard */; };
+		3A6ABE2A251EB140003C02C5 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6ABE29251EB140003C02C5 /* DetailVC.swift */; };
 		3A8B04FB251C12C200F22966 /* SecondCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8B04FA251C12C200F22966 /* SecondCV.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		3A60D0DE251C046F00C40CEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A60D0E1251C046F00C40CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A60D0E3251C046F00C40CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A6ABE29251EB140003C02C5 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		3A8B04FA251C12C200F22966 /* SecondCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCV.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +76,7 @@
 			children = (
 				3A60D0D9251C046A00C40CEC /* FirstVC.swift */,
 				3A8B04FA251C12C200F22966 /* SecondCV.swift */,
+				3A6ABE29251EB140003C02C5 /* DetailVC.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A6ABE2A251EB140003C02C5 /* DetailVC.swift in Sources */,
 				3A60D0DA251C046A00C40CEC /* FirstVC.swift in Sources */,
 				3A60D0D6251C046A00C40CEC /* AppDelegate.swift in Sources */,
 				3A8B04FB251C12C200F22966 /* SecondCV.swift in Sources */,
